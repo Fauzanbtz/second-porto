@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="dark"] {
+  --tw-text-opacity: 1;
+  color: rgba(
+    255,
+    255,
+    255,
+    var(--tw-text-opacity)
+  ); /* Warna teks menjadi putih */
+}
+
+/* Anda juga bisa menambahkan warna latar belakang gelap */
+[data-theme="dark"] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity)); /* Warna bg gelap */
+}
+
+html {
+  scroll-behavior: smooth;
+}

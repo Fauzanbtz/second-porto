@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             <a className="link link-hover" href="#project">Project</a>
           </li>
           <li>
-            <a className="link link-hover">Contact</a>
+            <a className="link link-hover" href="#contact">Contact</a>
           </li>
         </ul>
       </div>

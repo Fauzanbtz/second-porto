@@ -1,7 +1,9 @@
 import { MdModeOfTravel } from "react-icons/md";
-import Project1 from "../../../public/project/Screenshot 2024-07-25 123440.png";
+import Project1 from "../../../public/project/project1.png";
 import Project2 from "../../../public/project/project2.png";
 import Project3 from "../../../public/project/project3.png";
+import Project4 from "../../../public/project/project4.png";
+import Project5 from "../../../public/project/project5.png";
 
 const Project = () => {
   const data = [
@@ -32,6 +34,24 @@ const Project = () => {
       image: Project3,
       tech: ["HTML", "CSS", "Tailwind", "JavaScript"],
     },
+    {
+      name: "Portofolio",
+      description:
+        "This travel website provides features for booking tickets, hotels and others with ease and comfort when ordering with the application",
+      link: "https://github.com/irfanfirdaus/Project-1",
+      icons: <MdModeOfTravel />,
+      image: Project4,
+      tech: ["HTML", "CSS", "Tailwind", "JavaScript"],
+    },
+    {
+      name: "Portofolio",
+      description:
+        "This travel website provides features for booking tickets, hotels and others with ease and comfort when ordering with the application",
+      link: "https://github.com/irfanfirdaus/Project-1",
+      icons: <MdModeOfTravel />,
+      image: Project5,
+      tech: ["HTML", "CSS", "Tailwind", "JavaScript"],
+    },
 
   ];
 
@@ -42,7 +62,7 @@ const Project = () => {
         {data.map((item) => (
           <div
             key={item.name}
-            className="flex flex-col md:flex-row justify-center items-center  p-5 rounded-xl shadow-2xl space-y-5 md:space-y-0 md:space-x-5" data-aos="fade-up">
+            className="flex flex-col md:flex-row justify-center items-center  p-5 rounded-xl shadow-2xl space-y-5 md:space-y-0 md:space-x-5" data-aos="fade-up" data-aos-duration="2000">
             <div className="">
               <div className="">
                 <p className="text-sm font-bold ">Featured Project</p>

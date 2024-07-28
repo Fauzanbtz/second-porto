@@ -1,6 +1,6 @@
 const Learning = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center" data-aos="zoom-in-up" data-aos-duration="3000">
       <h1 className="text-3xl font-bold my-10">The course I took</h1>
       <div
         tabIndex={0}

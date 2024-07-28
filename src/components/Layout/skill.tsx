@@ -23,23 +23,23 @@ const skill = () => {
             <FaCss3Alt className="text-5xl" />
             CSS
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="600">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="700">
             <FaHtml5 className="text-5xl" />
             HTML
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="700">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="900">
             <IoLogoJavascript className="text-5xl" />
             JAVASCRIPT
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="800">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1100">
             <RiTailwindCssFill className="text-5xl" />
             TAILWIND
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="900">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1300">
             <FaNodeJs className="text-5xl" />
             NODEJS
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1000">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1300">
             <SiExpress className="text-5xl" />
             ExpressJs
           </li>
@@ -47,11 +47,11 @@ const skill = () => {
             <SiMysql className="text-5xl" />
             MYSQL
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1000">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="900">
             <DiMongodb className="text-5xl" />
             MONGODB
           </li>
-          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="500">
+          <li className="py-5 flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="700">
             <SiPrisma className="text-5xl" />
             PRISMA
           </li>

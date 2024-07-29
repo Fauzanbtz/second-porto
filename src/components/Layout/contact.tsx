@@ -55,13 +55,13 @@ const Contact: React.FC = () => {
               <h1 className="text-2xl font-semibold">Get In Touch</h1>
               <p>let's make your project become a reality</p>
             </div>
-            <div className="flex items-center justify-center gap-4">
-              <div>
+            <div className="flex x flex-col md:flex-row items-center justify-center gap-4 text-center md:text-right">
+              <div className="flex flex-col md:items-center">
                 <h1 className="text-2xl font-semibold">lets connect</h1>
                 <h2>send me an email</h2>
                 <p>m.fauzan.hb@gmail.com</p>
               </div>
-              <div>
+              <div className="flex flex-col md:items-center ">
                 <h2 className="text-2xl">follow me</h2>
                 <div className="flex gap-4">
                   <a
@@ -93,9 +93,9 @@ const Contact: React.FC = () => {
             </div>
           </div>
           <div className="w-full pt-20 md:p-0 md:w-1/2">
-            <h1 className="text-2xl font-semibold">Send me a message</h1>
+            <h1 className="text-2xl font-semibold text-center">Send me a message</h1>
             {success && (
-              <p className="bg-green-500 text-white p-2 rounded-xl text-center">
+              <p className="bg-green-500 text-white p-2 rounded-xl text-center ">
                 Your message was sent successfully!
               </p>
             )}

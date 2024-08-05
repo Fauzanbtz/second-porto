@@ -1,5 +1,6 @@
 import Certificate1 from "../../../public/certificate1.png";
 import Certificate2 from "../../../public/certificate2.png";
+import Certificate3 from "../../../public/certificate3.png";
 
 const Certificate = () => {
   const data = [
@@ -12,6 +13,12 @@ const Certificate = () => {
     {
       name: "Mengenal Program Komputer",
       image: Certificate2,
+      description: "",
+      from: "Codepolitan",
+    },
+    {
+      name: "Mengenal Program Komputer",
+      image: Certificate3,
       description: "",
       from: "Codepolitan",
     },

@@ -17,7 +17,7 @@ const Certificate = () => {
       from: "Codepolitan",
     },
     {
-      name: "Mengenal Program Komputer",
+      name: "Belajar MongoDB",
       image: Certificate3,
       description: "",
       from: "Codepolitan",

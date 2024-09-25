@@ -1,4 +1,4 @@
-import image from "../../../public/3d.png";
+import image from "../../../public/fauzan.png";
 import { MapPin } from "lucide-react";
 import { Github } from "lucide-react";
 import { Instagram } from "lucide-react";
@@ -54,10 +54,10 @@ function Hero() {
           </div>
         </div>
         <div
-          className="flex items-center justify-center lg:w-[50rem]"
+          className="flex items-center justify-center  w-full md:w-2/3 bg-color-dark rounded-lg"
           data-aos="fade-left"
           data-aos-duration="3000">
-          <img src={image} alt="" className="w-2/3" />
+          <img src={image} alt="" className="" />
         </div>
       </div>
     </div>

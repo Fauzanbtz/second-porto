@@ -51,17 +51,17 @@ const Contact: React.FC = () => {
       <div className="bg-color w-full p-10 rounded-2xl text-color-light">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="text-color-light gap-20 flex flex-col">
-            <div>
+            <div className="text-center md:text-start">
               <h1 className="text-2xl font-semibold">Get In Touch</h1>
               <p>let's make your project become a reality</p>
             </div>
-            <div className="flex x flex-col md:flex-row items-center justify-center gap-4 text-center md:text-right">
-              <div className="flex flex-col md:items-center">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-start">
+              <div className="flex flex-col ">
                 <h1 className="text-2xl font-semibold">lets connect</h1>
                 <h2>send me an email</h2>
                 <p>m.fauzan.hb@gmail.com</p>
               </div>
-              <div className="flex flex-col md:items-center ">
+              <div className="flex flex-col ">
                 <h2 className="text-2xl">follow me</h2>
                 <div className="flex gap-4">
                   <a

@@ -8,9 +8,9 @@ const Navbar: React.FC = () => {
   const toggle = () => setOpen(!open);
 
   return (
-    <div className="navbar bg-base-100 flex justify-between">
+    <div className="navbar bg-base-100 flex justify-around">
       <div>
-        <a className="btn btn-ghost text-xl">Fauzan</a>
+        <a className="btn btn-ghost normal-case text-xl">FAUZAN</a>
       </div>
       <div className="hidden lg:flex gap-2">
         <ul className="flex gap-10">
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
       <div
         className={`${
           open ? "translate-x-0" : "translate-x-full"
-        } lg:hidden fixed z-10 top-14 right-0 py-10   w-full  bg-color text-color-light transition-transform duration-300 ease-in-out flex flex-col gap-10 items-start`}>
+        } lg:hidden fixed z-10 top-14 right-0 py-10  w-full  bg-color text-color-light transition-transform duration-300 ease-in-out flex flex-col gap-10`}>
         <ul className="flex flex-col  w-full " onClick={() => setOpen(false)}>
           <li className="border-b-[1px] p-5 hover:cursor-pointer hover:bg-[#1a1a1a] w-full px-5" >
             <a className=" text-5xl" href="#about">About</a>
